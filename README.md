@@ -6,13 +6,21 @@
 
 
 # Threat Hunt Report: Unauthorized TOR Usage
-- [Scenario Creation]([(https://github.com/duvbarrett/threat-hunting-scenario-tor/blob/main/threat-hunting-scenario-tor-event-creation.md)])
+- [Scenario Creation](https://github.com/duvbarrett/threat-hunting-scenario-tor/blob/main/threat-hunting-scenario-tor-event-creation.md)
+
 
 ## Platforms and Languages Leveraged
-- Windows 10 Virtual Machines (Microsoft Azure)
-- EDR Platform: Microsoft Defender for Endpoint
-- Kusto Query Language (KQL)
-- Tor Browser
+- `Microsoft Azure:`</br>
+Windows 10 virtual machines were hosted on Azure for the simulation environment.
+
+- `Microsoft Defender for Endpoint:`</br>
+Used as the primary Endpoint Detection & Response (EDR) solution to monitor and protect system activity.
+
+- `Kusto Query Language (KQL):`</br>
+Used to query telemetry data from Microsoft Defender and Azure services.
+
+- `Tor Browser:`</br>
+Utilized for anonymized browsing and to test detection rules related to privacy-focused network traffic.
 
 ##  Scenario
 
